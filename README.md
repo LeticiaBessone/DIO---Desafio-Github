@@ -1,297 +1,404 @@
-# DIO---Desafio-Github
-Desafio de Projeto sobre o Git/GitHub
+<h1>Dominando IDEs Java </h1>
 
-Dominando IDEs Java
-Sejam bem-vindos ao curso DOMINANDO IDEs JAVA oferecido gratuitamente pela plataforma de cursos online Digital Innovation One. orange_heartyellow_heart
-vertical_traffic_light Guia
-small_blue_diamond Começaremos passando rapidamente sobre o Java e algumas das suas características mais importantes
-small_blue_diamond Em seguida, entraremos nas instalações do Java e das IDEs nos diferentes sistemas operacionais: Windows e Linux
-small_blue_diamond E seguiremos até o final do curso explicando de uma forma leve e objetiva sobre umas das IDEs mais conhecidas para desenvolvimento Java: Eclipse IDE e IntelliJ IDEA IDE
-warning Lembrando que o foco do curso são as IDEs e não a linguaguem Java. Ok? warning
+<p> Sejam bem-vindos ao curso <strong>DOMINANDO IDEs JAVA</strong> oferecido gratuitamente pela plataforma de cursos online <a href="https://web.digitalinnovation.one/"><strong> Digital Innovation One</a></strong>. 🧡💛<br>
 
-stop_sign Pré-requistos
- Sistema operacional (Windows e/ou Linux)
 
- Conta no GitHub
+<h2> 🚦 Guia </h2>
 
-books Ementa
-black_small_square Instalação/Configuração do Java
-white_check_mark Um pouco da história do Java
-white_check_mark Diferença entre JRE e JDK
-white_check_mark Versões do Java
-white_check_mark Se não existisse IDE?
-
-black_small_square Ubuntu
-white_check_mark Instalação OpenJDK
-white_check_mark Configuração de variável de ambiente
-white_check_mark Instalação do Eclipse
-white_check_mark Configurando o ícone no Dock
-white_check_mark Instalação do IntelliJ
-
-black_small_square Windows
-white_check_mark Instalação OpenJDK
-white_check_mark Configuração de variável de ambiente
-white_check_mark Instalação do Eclipse
-white_check_mark Instalação do IntelliJ
-
-black_small_square IntelliJ 
-white_check_mark Diferenças entre versões
-white_check_mark Conhecendo um pouco por dentro da IDE
-white_check_mark Criando seu primeiro projeto Java no IntelliJ
-white_check_mark Atalhos e Produtividade
-white_check_mark Conectar seu projeto no GitHub
-
-black_small_square Eclipse 
-white_check_mark Diferenças entre versões
-white_check_mark Conhecendo um pouco por dentro da IDE
-white_check_mark Criando seu primeiro projeto Java no IntelliJ
-white_check_mark Atalhos e Produtividade
-white_check_mark Conectar seu projeto no GitHub
-
- black_small_square Outras Alternativas 
-white_check_mark Visual Studio Code
+<p>
+🔹 Começaremos passando rapidamente sobre o Java e algumas das suas características mais importantes <br>
+🔹 Em seguida, entraremos nas instalações do Java e das IDEs nos diferentes sistemas operacionais: Windows e Linux<br>
+🔹 E seguiremos até o final do curso explicando de uma forma leve e objetiva sobre umas das IDEs mais conhecidas para desenvolvimento Java: Eclipse IDE e IntelliJ IDEA IDE <br>
+</p>    
+<p align="center"> <em> ⚠️ Lembrando que o <strong>foco do curso são as IDEs</strong> e não a linguaguem Java. Ok? ⚠️ </em></p>
 
 
 
+<h2>
+🛑 Pré-requistos
+</h2>
 
-penguin LINUX
-small_red_triangle Instalação OpenJDK
-O OpenJDK (Kit de Desenvolvimento Java Aberto) é uma implementação gratuita e de código aberto da linguagem de programação Java. A implementação está licenciada sob a GNU General Public License (GPL) com uma exceção de vinculação. JDK = JRE + JVM
 
-small_orange_diamond 1. Abra o terminal (Ctrl + Alt + t) e vamos verificar se temos o Java instalado:
+- [x] Sistema operacional (Windows e/ou Linux)
 
+- [x] Conta no GitHub
+
+  
+
+<h2> 📚 Ementa</h2>
+
+<h3><strong>▪️ Instalação/Configuração do Java</strong></h3>
+
+✅ Um pouco da história do Java<br>✅ Diferença entre JRE e JDK<br>✅ Versões do Java<br>
+✅ Se não existisse IDE?<br>
+
+<h3><strong> ▪️ Ubuntu</strong></h3>
+
+✅ Instalação OpenJDK <br>✅ Configuração de variável de ambiente<br>✅ Instalação do Eclipse<br>✅ Configurando o ícone no Dock<br>✅ Instalação do IntelliJ<br>
+
+<h3><strong> ▪️ Windows</strong></h3>
+
+✅ Instalação OpenJDK<br>✅ Configuração de variável de ambiente<br>✅ Instalação do Eclipse<br>✅ Instalação do IntelliJ<br>
+
+<h3><strong> ▪️ IntelliJ </strong></h3>
+
+✅ Diferenças entre versões<br>✅ Conhecendo um pouco por dentro da IDE<br>✅ Criando seu primeiro projeto Java no IntelliJ<br>✅ Atalhos e Produtividade<br>✅ Conectar seu projeto no GitHub<br>
+
+<h3><strong> ▪️ Eclipse </strong></h3>
+
+✅ Diferenças entre versões<br>✅ Conhecendo um pouco por dentro da IDE<br>✅ Criando seu primeiro projeto Java no IntelliJ<br>✅ Atalhos e Produtividade<br>✅ Conectar seu projeto no GitHub<br>
+
+<h3><strong> ▪️ Outras Alternativas </strong></h3>
+
+✅ Visual Studio Code<br>
+
+<br><br>
+
+
+<h2><strong> 🐧 LINUX</h2></strong>
+
+<h3>🔺 Instalação OpenJDK</h3>
+
+<em><strong>O OpenJDK (Kit de Desenvolvimento Java Aberto)</strong> é uma  implementação gratuita e de código aberto da linguagem de programação  Java.  A implementação está licenciada sob a GNU General Public License  (GPL) com uma exceção de vinculação. <strong>JDK = JRE + JVM</strong></em>
+
+🔸 <strong>1.</strong> Abra o terminal (Ctrl + Alt + t) e vamos verificar se temos o Java instalado:
+
+```
 java -version
-small_orange_diamond 2. Para instalar o openJDK-11, digite no terminal: A versão mais atual LTS é do Java 11, que terá seu suporte estendido até Setembro de 2022. Este tipo de suporte iniciou no Java 8 que será mantido até 2023.
+```
 
+🔸 <strong>2.</strong> Para instalar o openJDK-11, digite no terminal:
+<em>A versão mais atual LTS é do Java 11, que terá seu suporte  estendido até Setembro de 2022. Este tipo de suporte iniciou no Java 8  que será mantido até 2023.</em>
+
+```
 sudo apt-get install openjdk-11-jdk
-small_orange_diamond 3. Confirme se realmente foi instalado com sucesso:
+```
 
+🔸 <strong>3.</strong> Confirme se realmente foi instalado com sucesso:
+
+```
 java -version
-small_orange_diamond4. Vamos configurar o ambiente JAVA_HOME:
+```
 
-​ 4.1 Verificar o caminho da instalação do Java:
+🔸<strong>4.</strong> Vamos configurar o ambiente JAVA_HOME:
 
+​	<strong>4.1</strong> Verificar o caminho da instalação do Java:
+
+```
 sudo update-alternatives --config java
-​ 4.2 Copie o caminho que aparecerá no terminal, no meu caso:
+```
 
+​	<strong>4.2</strong> Copie o caminho que aparecerá no terminal, no meu caso:
+
+```
 /usr/lib/jvm/java-11-openjdk-amd64/bin/java
-​ 4.3 Vamos editar o arquivo .bashrc:
+```
 
+​	<strong>4.3</strong> Vamos editar o arquivo .bashrc:
+
+```
 sudo gedit ~/.bashrc
-​ 4.4 Copie o código abaixo e cole no final do arquivo .bashrc.
+```
 
-​ IMPORTANTE: cuidado para não alterar nada no arquivo além de apenas colar no final do mesmo o que vou te disponibilizar a seguir.
+​	<strong>4.4</strong> Copie o código abaixo e cole no final do arquivo .bashrc. 
 
-​ JAVA_HOME = aqui você coloca o caminho do tópico 4.2, tirando o /bin/java
+​	<em>IMPORTANTE: cuidado para não alterar nada no arquivo além de apenas colar no final do mesmo o que vou te disponibilizar a seguir. </em>
 
+​	<em>JAVA_HOME = aqui você coloca o caminho do tópico 4.2, tirando o /bin/java</em>
+
+```
 JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export JAVA_HOME
 export PATH=$PATH:$JAVA_HOME
-​ 4.3 Salve o arquivo
+```
 
-​ 4.4 Vamos conferir se a alteração ficou salva:
+​	<strong>4.3</strong> Salve o arquivo
 
+​	<strong>4.4</strong> Vamos conferir se a alteração ficou salva:
+
+```
 cat ~/.bashrc
-small_orange_diamond5. Feche o terminal e abra novamente
+```
 
-small_orange_diamond6. Vamos conferir mais uma vez se o Java está instalado na nossa máquina
+🔸<strong>5.</strong>  Feche o terminal e abra novamente
 
+🔸<strong>6.</strong> Vamos conferir mais uma vez se o Java está instalado na nossa máquina
+
+```
 java --version
-Créditos: DevSuperior
+```
 
+<p align="right"><em>Créditos: <a href="https://www.youtube.com/watch?v=jARiy3DZdwg">DevSuperior</a></em></p>
 
-small_red_triangle Instalação Eclipse
-small_orange_diamond 1. Entre no site oficial do Eclipse Foundation e faça o DOWNLOAD O site já identifica o sistema operacional.
+<br>
 
-small_orange_diamond 2. Descompacte a pasta
+<h3>🔺 Instalação Eclipse </h3>
 
-small_orange_diamond 3. Procure o arquivo eclipse-inst e execute
+🔸 <strong>1.</strong> Entre no site oficial do Eclipse Foundation e faça o <strong><a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-linux64.tar.gz">DOWNLOAD</a></strong>
+<em>O site já identifica o sistema operacional.</em>
 
-small_orange_diamond 4. Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers
+🔸 <strong>2.</strong> Descompacte a pasta
 
-small_orange_diamond 5. Clique no folder da primeira opção e selecione o JDK que instalamos na nossa máquina.
+🔸 <strong>3.</strong> Procure o arquivo eclipse-inst e execute
 
-small_orange_diamond 6. Mantenha as opções "create start menu entry" e "create desktop shortcut"
+🔸 <strong>4.</strong> Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers
 
-small_orange_diamond 7. Install
+🔸 <strong>5.</strong> Clique no folder da primeira opção e selecione o JDK que instalamos na nossa máquina.
 
-small_orange_diamond 8. Accept now
+🔸 <strong>6.</strong> Mantenha as opções "create start menu entry" e "create desktop shortcut"
 
-small_orange_diamond 9. Launch
+🔸 <strong>7.</strong> Install
 
-small_orange_diamond 10. Pronto, intalação concluída!
+🔸 <strong>8.</strong> Accept now
 
+🔸 <strong>9.</strong> Launch
 
-small_red_triangle Configurando o ícone do Eclipse IDE no Dock
+🔸 <strong>10.</strong> Pronto, intalação concluída!
 
-small_red_triangle Instalação IntelliJ IDEA Community
-small_orange_diamond 1. Entre no site ofical do INTELLIJ
+<br>
 
-small_orange_diamond 2. Escolha a opção Community e faça o download
+<h3>🔺 Configurando o ícone do Eclipse IDE no Dock </h3>
 
-small_orange_diamond 3. Descompacte a pasta e vamos para o terminal
+<br>
 
-small_orange_diamond 4. Abra o terminal (Ctrl + Alt + t) e entre no diretório que você descompactou No meu caso, na pasta Downloads Ideal
+<h3>🔺 Instalação IntelliJ IDEA Community </h3>
 
+🔸 <strong>1.</strong> Entre no site ofical do <a href="https://www.jetbrains.com/idea/download/#section=windows"><strong>INTELLIJ</strong></a>
+
+🔸 <strong>2.</strong> Escolha a opção Community e faça o download 
+
+🔸 <strong>3.</strong> Descompacte a pasta e vamos para o terminal
+
+🔸 <strong>4.</strong> Abra o terminal (Ctrl + Alt +  t) e entre no diretório que você descompactou 
+<em>No meu caso, na pasta Downloads Ideal</em>
+
+```
 cd Downloads/IdealC
-small_orange_diamond 5. Entre na pasta bin
+```
 
+🔸 <strong>5.</strong> Entre na pasta bin
+
+```
 cd bin
-small_orange_diamond 6. Execute o arquivo de instalação idea.sh
+```
 
+🔸 <strong>6.</strong> Execute o arquivo de instalação idea.sh
+
+```
 ./idea.sh
+```
 
-small_red_triangle Instalação Git
-small_orange_diamond 1. Abra o terminal (Ctrl + Alt + t) e vamos verificar se temos o git instalado:
+<br>
 
+<h3>🔺 Instalação Git </h3>
+
+🔸 <strong>1.</strong> Abra o terminal (Ctrl + Alt + t) e vamos verificar se temos o git instalado:
+
+```
 git --version
-small_orange_diamond 2. Execute o comando:
+```
 
+🔸 <strong>2.</strong> Execute o comando:
+
+```
 sudo apt-get install git-all
-small_orange_diamond3. Confirme novamente se o git realmente está instalado:
+```
 
+🔸<strong>3.</strong> Confirme novamente se o git realmente está instalado:
+
+```
 git --version
-small_orange_diamond 4. Vamos começar as configurações iniciais:
+```
 
-​ 4.1 Cofigurar o nome de usuário
+🔸 <strong>4.</strong> Vamos começar as configurações iniciais:
 
+​	<strong>4.1</strong> Cofigurar o nome de usuário
+
+```
 git config --global user.name "Seu nome"
-​ 4.2 Configurar o endereço de e-mail:​ É de suma importância que o ENDEREÇO DE E-MAIL SEJA O MESMO DO GITHUB afim de evitar conflitos!
+```
 
+​	<strong>4.2</strong> Configurar o endereço de e-mail:
+​	<em>É de suma importância que o ENDEREÇO DE E-MAIL SEJA O MESMO DO GITHUB afim de evitar conflitos!</em>
+
+```
 git config --global user.email seuemail@email.br
-​ 4.3 Vamos conferir a lista de configurações:
+```
 
+​	<strong>4.3</strong> Vamos conferir a lista de configurações:
+
+```
 git config --list
-small_orange_diamond 5. Pronto, git instalado e configurado com sucesso!
+```
 
+🔸 <strong>5.</strong> Pronto, git instalado e configurado com sucesso!
 
+<br><br>
 
+<h2><strong>🪟 WINDOWS</h2></strong>
 
-window WINDOWS
-small_red_triangle Instalação JDK Zulu
-Aqui no windows, vamos fazer o download do OpenJDK Zulu. As compilações do Azul Zulu do OpenJDK são compilações de código aberto, testadas pelo TCK e certificadas do OpenJDK. O Zulu Blue está disponível para uma ampla variedade de plataformas de hardware e sistemas operacionais. A documentação do Azul Zulu inclui notas de lançamento, um guia de instalação e licenças de terceiros.
+<h3>🔺 Instalação JDK Zulu</h3>
 
-small_blue_diamond 1. Entre no SITE AZUL
+Aqui no windows, vamos fazer o download do <strong>OpenJDK Zulu</strong>.
+<em>As compilações do Azul Zulu do OpenJDK são compilações de código aberto, testadas pelo TCK e certificadas do OpenJDK. O Zulu Blue está disponível para uma ampla variedade de plataformas de hardware e sistemas operacionais. A documentação do Azul Zulu inclui notas de lançamento, um guia de instalação e licenças de terceiros.</em>
 
-small_blue_diamond 2. Faça o download do arquivo .zip do JDK 11.0.11+9. No meu caso, o x86 64-bit
+🔹 <strong>1.</strong> Entre no <a href="https://www.azul.com/downloads/?package=jdk"><strong>SITE AZUL</strong></a>
 
-small_blue_diamond 3. Vá no drive C://Arquivo de Programas
+🔹 <strong>2.</strong> Faça o download do arquivo .zip do JDK 11.0.11+9. No meu caso, o x86 64-bit
 
-small_blue_diamond 4. Caso não tenha um diretório com o nome Java, crie
+🔹 <strong>3.</strong> Vá no drive C://Arquivo de Programas
 
-small_blue_diamond 5. Entre neste diretório e descompacte o download do zip JDK Zulu 11.0.11+9 neste diretório
+🔹 <strong>4.</strong> Caso não tenha um diretório com o nome Java, crie
 
-small_blue_diamond 6. Vamos configurar o ambiente JAVA_HOME:
+🔹 <strong>5.</strong>  Entre neste diretório e descompacte o download do zip JDK Zulu 11.0.11+9 neste diretório
 
-​ 6.1 Menu iniciar -> Editar as varáveis de ambiente do sistema
+🔹 <strong>6.</strong> Vamos configurar o ambiente JAVA_HOME:
 
-​ 6.2 Irá abrir a janela Propriedades do Sistema, escolha a aba Avançado, em seguida clique em variáveis de Ambiente
+​	<strong>6.1</strong>  Menu iniciar -> Editar as varáveis de ambiente do sistema
 
-​ 6.3 Na janela Variáveis de Ambiente, crie um novo Variáveis do sistema
+​	<strong>6.2</strong> Irá abrir a janela Propriedades do Sistema, escolha a aba Avançado, em seguida clique em variáveis de Ambiente
 
-​ 6.4 Abrirá uma jabela: Nova Variável de Sistema.
+​	<strong>6.3</strong> Na janela Variáveis de Ambiente,  crie um novo Variáveis do sistema
 
-​ 6.5 Nome da variável: JAVA_HOME
+​	<strong>6.4</strong> Abrirá uma jabela: Nova Variável de Sistema.
 
-​ 6.6 Valor da variável: em seguida OK.​ O valor da variável é o caminho do diretório que você descompactou o zip JDK Zulu 11.0.11+9 no passo 5
+​	<strong>6.5</strong> Nome da variável: JAVA_HOME
 
-​ 6.7 Na mesma janela Variáveis do Sistema, localize a variável Path, selecione e clique a opção Editar...
+​	<strong>6.6</strong> Valor da variável: em seguida OK.
+​	<em>O valor da variável é o caminho do diretório que você descompactou o zip JDK Zulu 11.0.11+9 no passo 5 </em>
 
-​ 6.8 Clique na opção Novo e cole o mesmo caminho do passo 5 acrescentando \bin
+​	<strong>6.7</strong> Na mesma janela Variáveis do Sistema, localize a variável Path, selecione e clique a opção Editar...
 
-​ 6.9 Continue com o path selecionado e clique na opção Mover para Cima até chegar no topo
+​	<strong>6.8</strong> Clique na opção Novo e cole o mesmo caminho do passo 5 acrescentando \bin
 
-small_blue_diamond 7. Pronto, finalizada a configuração. Próximo passo é conferir se está instalado tudo certinho
+​	<strong>6.9</strong> Continue com o path selecionado e clique na opção Mover para Cima até chegar no topo
 
-small_blue_diamond 8. Abra o Prompt de Comando: Menu iniciar -> cmd
+🔹 <strong>7.</strong> Pronto, finalizada a configuração. Próximo passo é conferir se está instalado tudo certinho
 
-small_blue_diamond 9. Vamos conferir mais uma vez se o Java está instalado na nossa máquina
+🔹 <strong>8.</strong> Abra o Prompt de Comando: Menu iniciar -> cmd
 
+🔹 <strong>9.</strong> Vamos conferir mais uma vez se o Java está instalado na nossa máquina
+
+```
 java -version
-Créditos: DevSuperior
+```
 
+<p align="right"><em>Créditos: <a href="https://www.youtube.com/watch?v=laC0fiI-IOM">DevSuperior</a></em></p>
 
-small_red_triangle Instalação Eclipse
-small_blue_diamond 1. Acessar o site oficial do ECLIPSE
+<br>
 
-small_blue_diamond 2. Fazer o download do instalador
+<h3>🔺 Instalação Eclipse </h3>
 
-small_blue_diamond 3. Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers
+🔹 <strong>1.</strong> Acessar o site oficial do <a href="https://www.eclipse.org/downloads/"><strong>ECLIPSE</strong></a>
 
-small_blue_diamond 4. Clique no folder da primeira opção (Java 11 + VM) e selecione o JDK que instalamos na nossa máquina
+🔹 <strong>2.</strong> Fazer o download do instalador
 
-small_blue_diamond 5. Mantenha as opções "create start menu entry" e "create desktop shortcut"
+🔹 <strong>3.</strong> Escolha segunda a opção: Eclipse IDE for Enterprise Java and Web Developers
 
-small_blue_diamond 6. Install
+🔹 <strong>4.</strong> Clique no folder da primeira opção (Java 11 + VM) e selecione o JDK que instalamos na nossa máquina
 
-small_blue_diamond 7. Accept now
+🔹 <strong>5.</strong> Mantenha as opções "create start menu entry" e "create desktop shortcut"
 
-small_blue_diamond 8. Launch
+🔹 <strong>6.</strong> Install
 
-small_blue_diamond 9. Pronto, intalação concluída
+🔹 <strong>7.</strong> Accept now
 
+🔹 <strong>8.</strong> Launch
 
-small_red_triangle Instalação IntelliJ IDEA Community
-small_blue_diamond 1. Entre no site ofical do INTELLIJ
+🔹 <strong>9.</strong> Pronto, intalação concluída
 
-small_blue_diamond 2. Escolha a opção Community e faça o download
+<br>
 
-small_blue_diamond 3. Siga com next
+<h3>🔺 Instalação IntelliJ IDEA Community </h3>
 
-small_blue_diamond 4. Na opção Installation Options, deixe selecionado as opções: 4.1 64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit) 4.2 Add "Open Folder as Project" 4.3 .java - .groovy - .kt - .kts 4.4 Add lauchers dir to the PATH 4.5 Next
+🔹 <strong>1.</strong> Entre no site ofical do <a href="https://www.jetbrains.com/idea/download/#section=windows"><strong>INTELLIJ</strong></a>
 
-small_blue_diamond 5. Install
+🔹 <strong>2.</strong> Escolha a opção Community e faça o download 
 
-small_blue_diamond 6. Para finalizar a instalação, escolha a opção reebot later
+🔹 <strong>3.</strong> Siga com next
 
-small_blue_diamond7. Com o IntelliJ já instalado, vamos iniciar:
+🔹 <strong>4.</strong> Na opção Installation Options, deixe selecionado as opções:
+	<strong>4.1</strong> 64-bit launcher (caso seu sistema seja 64-bit, caso não, selecione 32-bit)
+	<strong>4.2</strong> Add "Open Folder as Project"
+	<strong>4.3</strong> .java - .groovy - .kt - .kts
+	<strong>4.4</strong> Add lauchers dir to the PATH
+	<strong>4.5</strong> Next
 
-​ 7.1 Aceite os termos: I confirm that I have... >> Confirm
+🔹 <strong>5.</strong> Install
 
-​ 7.2 Data Sharing >> Send Anonymous Statistics
+🔹 <strong>6.</strong> Para finalizar a instalação, escolha a opção reebot later
 
-small_blue_diamond8. IDE pronta para uso!
+🔹<strong>7.</strong> Com o IntelliJ já instalado, vamos iniciar:
 
+​	<strong>7.1</strong> Aceite os termos: I confirm that I have... >> Confirm
 
-small_red_triangle Instalação Git
-small_blue_diamond 1. Entre no site ofical do GIT
+​	<strong>7.2</strong> Data Sharing >> Send Anonymous Statistics
 
-small_blue_diamond 2. Escolha a opção Windows e o instalador será baixado automáticamente
+🔹<strong>8.</strong> IDE pronta para uso!
 
-small_blue_diamond 3. Mantenha as opções pré selecionadas e siga com Next
+<br>
 
-small_blue_diamond 4. Install
+<h3>🔺 Instalação Git </h3>
 
-small_blue_diamond 5. Antes de finaizar a instalação, selecione a opção Lauch Git Bash
+🔹 <strong>1.</strong> Entre no site ofical do <a href ="https://git-scm.com/downloads"><strong>GIT</strong></a>
 
-small_blue_diamond6. Ao finalizar o passo 5, irá abrir o Git Bash
+🔹 <strong>2.</strong> Escolha a opção Windows e o instalador será baixado automáticamente
 
-small_blue_diamond7. Agora vamos fazer as configurações iniciais:
+🔹 <strong>3.</strong> Mantenha as opções pré selecionadas e siga com Next
 
-small_blue_diamond8. Confirme se o git realmente está instalado:
+🔹 <strong>4.</strong> Install
 
+🔹 <strong>5.</strong> Antes de finaizar a instalação, selecione a opção Lauch Git Bash 
+
+🔹<strong>6.</strong> Ao finalizar o passo 5, irá abrir o Git Bash
+
+🔹<strong>7.</strong> Agora vamos fazer as configurações iniciais:
+
+🔹<strong>8.</strong> Confirme se o git realmente está instalado:
+
+```
 git --version
-small_blue_diamond9. Vamos começar as configurações iniciais:
+```
 
-​ 9.1 Configurar o nome de usuário
+🔹<strong>9.</strong> Vamos começar as configurações iniciais:
 
+​	<strong>9.1</strong> Configurar o nome de usuário
+
+```
 git config --global user.name "Seu nome"
-​ 9.2 Configurar o endereço de e-mail:​ É de suma importância que o ENDEREÇO DE E-MAIL SEJA O MESMO DO GITHUB afim de evitar conflitos!
+```
 
+​	<strong>9.2</strong> Configurar o endereço de e-mail:
+​	<em>É de suma importância que o ENDEREÇO DE E-MAIL SEJA O MESMO DO GITHUB afim de evitar conflitos!</em>
+
+```
 git config --global user.email seuemail@email.br
-​ 9.3 Vamos conferir a lista de configurações:
+```
 
+​	<strong>9.3</strong> Vamos conferir a lista de configurações:
+
+```
 git config --list
-small_blue_diamond10. Pronto, git instalado e configurado com sucesso!
+```
 
+🔹<strong>10.</strong> Pronto, git instalado e configurado com sucesso!
 
+<br><br>
 
+<h2> 🤝 Contribuindo </h2>
 
-handshake Contribuindo
-Este repositório foi criado para fins de estudo, então contribua com ele. Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
+Este repositório foi criado para fins de estudo, então contribua com ele.
+Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
 
 Se possível:
 
-star Star o projeto
+⭐️  Star o projeto
 
-bug Encontrar e relatar issues
+🐛 Encontrar e relatar issues
+
+
+------------
+
+Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
+
+
